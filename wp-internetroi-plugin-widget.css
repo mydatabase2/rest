@@ -1,0 +1,252 @@
+.iroi-sidebar-article{
+    border: 1px solid #e1e2e3;
+    margin-bottom: 20px;
+    overflow: auto;
+}
+.iroi-sidebar-article-mobile{
+	margin-top: 0px !important;
+}
+.iroi-sidebar-article .post-image img{
+    height: auto;
+    margin-bottom: 10px;
+    vertical-align: top;
+    width: 300px;
+}
+.iroi-sidebar-article .post-content {
+    padding: 0px;
+}
+.iroi-sidebar-article .post-title {
+    font-size: 20px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+    padding: 0px 10px;
+}
+.iroi-sidebar-article .post-author{
+    font-size: 16px;
+    border-top: 1px solid #e1e2e3;
+    padding: .25em 0px .25em .5em;
+}
+.iroi-sidebar-article .post-author a{
+    color: #be1624;
+}
+
+.iroi-desktop-article {
+    border: 1px solid #e1e2e3;
+    margin: 0 10px 20px 0;
+    overflow: auto;
+    width: 236px;
+    float: left;
+}
+#top-stories-wrapper div.iroi-desktop-article:nth-of-type(3n) {
+    margin-right: 0;
+}
+.iroi-desktop-article .post-image img {
+    max-height: 123px;
+    margin-bottom: 10px;
+    vertical-align: top;
+    width: 300px;
+}
+.iroi-desktop-article .post-title {
+    font-size: 16px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+    padding: 0px 10px;
+    height: 75px;
+}
+.iroi-desktop-article .post-content {
+    padding: 0px;
+}
+.iroi-desktop-article .post-author {
+    font-size: 14px;
+    border-top: 1px solid #e1e2e3;
+    padding: .25em 0px .25em .5em;
+}
+.iroi-desktop-article .post-author a{
+    color: #be1624;
+}
+#top-stories-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+}
+.iroi-social-share-button{
+	width: 100%;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    background: #3c569a;
+    height: 40px;
+    line-height: 40px;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+}
+.iroi-social-share-button a{
+    color: #fff !important;
+    text-decoration: none;
+}
+.iroi-social-share-button span{
+    font-weight: 700;
+}
+.iroi-email-signup-wrapper {
+    border: 1px solid #e1e2e3;
+    margin-bottom: 20px;
+    overflow: auto;
+    clear: both;
+}
+.iroi-email-signup-wrapper .description {
+    font-size: 20px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+    padding: 0px 10px;
+}
+.iroi-email-signup-wrapper .description p {
+    margin: 15px 0;
+}
+.iroi-email-signup-wrapper .signup-form {
+    font-size: 20px;
+    border-top: 1px solid #e1e2e3;
+    padding: 15px 10px;
+}
+.iroi-email-signup-wrapper .signup-form #email {
+    padding-left: 5px;
+    margin-right: 10px;
+    width: 80%;
+    border: 1px solid #e1e2e3;
+}
+.iroi-email-signup-wrapper .signup-form #email_submit {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 16px;
+    background-color: #be1624;
+}
+#iroi-email-signup-msg-wrapper {
+    font-size: 16px;
+    clear: both;
+}
+
+@media only screen and (max-width:1055px) {
+    .iroi-sidebar-article{
+        height: 184px;
+        margin-bottom: 20px;
+        clear: both;
+        position: relative;
+        overflow: hidden;
+    }
+    .iroi-sidebar-article .post-image{
+        vertical-align: top;
+        float: left;
+    }
+    .iroi-sidebar-article .post-image img{
+        display: none;
+        position: absolute;
+        clip: rect(0px,350px,183px,0px);
+        vertical-align: middle;
+        width: 350px;
+        display: block;
+        float: left;
+    }
+    .iroi-sidebar-article .post-content{
+        float: right;
+        width: 376px;
+        margin: 0px;
+        padding: 0px;
+    }
+    .iroi-sidebar-article .post-title {
+        font-size: 20px;
+        margin: 10px 0px 10px 0px;
+        padding: 0px 5px;
+        line-height: 1.2;
+    }
+    .iroi-sidebar-article .post-author {
+        border-top: 1px solid #e1e2e3;
+        position: absolute;
+        bottom: 0px;
+        padding: .25em 0px .25em .5em;
+        z-index: 0;
+        overflow: auto;
+        width: 376px;
+        margin: 0px 0px;
+    }
+}
+
+@media only screen and (max-width:900px){
+    .iroi-sidebar-article{
+        border: 1px solid #e1e2e3;
+        margin-bottom: 20px;
+        overflow: hidden;
+        height: auto;
+    }
+    .iroi-sidebar-article .post-image{
+        float: none;
+    }
+    .iroi-sidebar-article .post-image img{
+        vertical-align: top;
+        width: 100%;
+        position: static;
+        float: none;
+    }
+    .iroi-sidebar-article .post-content{
+        float: none;
+        width: 100%;
+    }
+    .iroi-sidebar-article .post-title{
+        padding: 0px 10px;
+    }
+    .iroi-sidebar-article .post-author{
+        position: static;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:751px) {
+    
+    #top-stories-wrapper {
+        width: 610px;
+    }
+    
+    .iroi-desktop-article {
+        width: 300px;
+    }
+    .iroi-desktop-article .post-image img {
+        height: 141px;
+        width: 100%;
+    }
+    .iroi-desktop-article {
+        margin-right: 0;
+    }
+    #top-stories-wrapper div.iroi-desktop-article:nth-of-type(2n+1) {
+        margin-right: 10px;
+    }
+}
+
+@media only screen and (max-width:700px) {
+    .iroi-email-signup-wrapper .signup-form #email {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .iroi-email-signup-wrapper .signup-form #email_submit {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:630px) {
+    #top-stories-wrapper {
+	    width: 300px;
+	}
+    .iroi-desktop-article {
+        width: 60%;
+    }
+    .main-content #top-stories-wrapper div.iroi-desktop-article {
+        margin-right: 0px;
+        margin-left: 0px;
+        width: 300px;
+    }
+    .iroi-desktop-article .post-image img {
+        height: auto;
+        width: 100%;
+        max-height: 100%;
+    }
+}

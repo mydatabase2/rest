@@ -1,0 +1,21 @@
+#fb_load_comments{
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	line-height: 22px;
+    background: #4080ff;
+    border: none;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 14px;
+    padding: 12px;
+    text-shadow: none;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.fb-anchor{
+	display: none;
+	height: 0px;
+}
+.fb_iframe_widget {
+    margin-bottom: 20px;
+}

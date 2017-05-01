@@ -1,0 +1,29 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<script>var inDapIF=true;</script>
+<style type="text/css">body {margin: 0px;}</style>
+</head><body style="width: 0px;"><script>
+  var snippet = '<ins class=\'adsbygoogle\' style=\'display:block\' data-ad-client=\'ca-pub-8001072827248783\' data-ad-slot=\'2308594923\' data-ad-format=\'auto\'></ins>';
+  var parse_node = document.createElement('div');
+  parse_node.innerHTML = snippet;
+  var ld_id_div = window.frameElement.parentNode;
+
+  // Prevent the ld id div from having a visual impact since it is not needed at this point.
+  ld_id_div.style.display = 'none';
+
+  var insert_after = ld_id_div;
+  var insert_after_parent = insert_after.parentNode;
+  while (parse_node.firstChild) {
+    insert_after = insert_after_parent.insertBefore(parse_node.firstChild, insert_after.nextSibling);
+  }
+
+  var script = document.createElement('script');
+  script.src = '//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js';
+  script.setAttribute('async', '');
+  insert_after_parent.insertBefore(script, insert_after.nextSibling);
+
+  var script_two = document.createElement('script');
+  script_two.innerHTML = '(adsbygoogle=window.adsbygoogle||[]).push({});';
+  insert_after_parent.insertBefore(script_two, insert_after.nextSibling);
+</script>
+</body></html>

@@ -1,0 +1,58 @@
+.video_thumbnail{
+    width: 100%;
+    text-align: center;
+    margin: 0px auto 15px auto;
+}
+.video_type_ndn_youtube iframe,
+iframe.rumble,
+.video_type_ndn_youtube #ndn-widget-embed-1 {
+	max-width: 100%;
+    vertical-align: middle;
+}
+
+#awm_video_js{
+    width: 728px;
+}
+
+#awm_video_js .vjs-big-play-button{
+    background-color: #be1624 !important;
+    font-size: 5em;
+}
+
+/************** RESPONSIVE ****************/
+
+@media only screen and (max-width : 1063px) {
+
+	#awm_video_js{
+        width: 500px;
+    }
+}
+
+@media only screen and (max-width : 829px) {
+
+    #awm_video_js{
+        width: 407px;
+    }
+}
+
+/**************** PHONE *******************/
+@media only screen and (max-width: 736px) {
+    #awm_video_js{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .video_type_ndn_youtube_mobile iframe, .video_type_ndn_youtube_tablet iframe {
+	    height: 310px;
+	    max-width: 100%;
+	}
+
+	.video_type_ndn_youtube_mobile #ndn-widget-embed-1 {
+	    max-width: 100% !important;
+	    height: 192px !important;
+	}
+
+    .video_type_ndn_youtube_tablet #ndn-widget-embed-1 {
+        max-width: 100% !important;
+    }
+}
